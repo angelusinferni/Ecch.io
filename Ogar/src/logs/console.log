@@ -1,0 +1,314 @@
+[Game] Loaded stats server on port 88
+[Game] Listening on port 443
+[Game] Current game mode is Free For All
+>help
+[Console] ======================== HELP ======================
+[Console] addbot [number]              : add bot to the server
+[Console] kickbot [number]             : kick an amount of bots
+[Console] board [string] [string] ...  : set scoreboard text
+[Console] boardreset                   : reset scoreboard text
+[Console] change [setting] [value]     : change specified settings
+[Console] clear                        : clear console output
+[Console] color [PlayerID] [R] [G] [B] : set cell(s) color by client ID
+[Console] exit                         : stop the server
+[Console] food [X] [Y] [mass]          : spawn food at specified Location
+[Console] gamemode [id]                : change server gamemode
+[Console] kick [PlayerID]              : kick player or bot by client ID
+[Console] kill [PlayerID]              : kill cell(s) by client ID
+[Console] killall                      : kill everyone
+[Console] mass [PlayerID] [mass]       : set cell(s) mass by client ID
+[Console] merge [PlayerID]             : merge all client's cells once
+[Console] name [PlayerID] [name]       : change cell(s) name by client ID
+[Console] playerlist                   : get list of players and bots
+[Console] pause                        : pause game , freeze all cells
+[Console] reload                       : reload config
+[Console] resetantiteam                : reset anti-team effect on client
+[Console] status                       : get server status
+[Console] tp [PlayerID] [X] [Y]        : teleport player to specified location
+[Console] virus [X] [Y] [mass]         : spawn virus at a specified Location
+[Console] ====================================================
+>addbot 1
+[Console] Added 1 player bots
+>board Rank
+[Console] Successfully changed leaderboard values
+>playerlist
+[Console] Showing 2 players: 
+ ID         | IP              | NICK            | CELLS | SCORE  | POSITION    
+-------------------------------------------------------------------------------
+          1 | 127.0.0.1       | asdf            |     1 |    243 |  2966,  2420
+          2 | BOT             | poland          |     1 |     97 |  3977,  5461
+>color asdf 255 0 0
+[Console] Please specify a valid player ID!
+>color 1 255 0 9
+>addbot 5
+[Console] Added 5 player bots
+>pause
+[Console] Paused the game.
+>pause
+[Console] Unpaused the game.
+>boardreset
+[Console] Successfully reset leaderboard
+>kickbot 6
+[Console] Kicked 6 bots
+>addbot 2
+[Console] Added 2 player bots
+>pause
+[Console] Paused the game.
+>list
+[Console] Invalid Command!
+>playerlist
+[Console] Showing 3 players: 
+ ID         | IP              | NICK            | CELLS | SCORE  | POSITION    
+-------------------------------------------------------------------------------
+          8 | 127.0.0.1       | asdf            |     1 |    204 |  4549,    72
+          9 | BOT             | blatter         |     1 |    139 |  1633,  1080
+         10 | BOT             | facepunch       |     1 |    193 |  1483,  3604
+>pause
+[Console] Unpaused the game.
+>pause
+[Console] Paused the game.
+>pause
+[Console] Unpaused the game.
+>pause
+[Console] Paused the game.
+>pause
+[Console] Unpaused the game.
+>addbot 2
+[Console] Added 2 player bots
+>addbot 5
+[Console] Added 5 player bots
+>pause
+[Console] Paused the game.
+>pause
+[Console] Unpaused the game.
+>addbot 10
+[Console] Added 10 player bots
+>pause
+[Console] Paused the game.
+>pause
+[Console] Unpaused the game.
+>botkick
+[Console] Invalid Command!
+>help
+[Console] ======================== HELP ======================
+[Console] addbot [number]              : add bot to the server
+[Console] kickbot [number]             : kick an amount of bots
+[Console] board [string] [string] ...  : set scoreboard text
+[Console] boardreset                   : reset scoreboard text
+[Console] change [setting] [value]     : change specified settings
+[Console] clear                        : clear console output
+[Console] color [PlayerID] [R] [G] [B] : set cell(s) color by client ID
+[Console] exit                         : stop the server
+[Console] food [X] [Y] [mass]          : spawn food at specified Location
+[Console] gamemode [id]                : change server gamemode
+[Console] kick [PlayerID]              : kick player or bot by client ID
+[Console] kill [PlayerID]              : kill cell(s) by client ID
+[Console] killall                      : kill everyone
+[Console] mass [PlayerID] [mass]       : set cell(s) mass by client ID
+[Console] merge [PlayerID]             : merge all client's cells once
+[Console] name [PlayerID] [name]       : change cell(s) name by client ID
+[Console] playerlist                   : get list of players and bots
+[Console] pause                        : pause game , freeze all cells
+[Console] reload                       : reload config
+[Console] resetantiteam                : reset anti-team effect on client
+[Console] status                       : get server status
+[Console] tp [PlayerID] [X] [Y]        : teleport player to specified location
+[Console] virus [X] [Y] [mass]         : spawn virus at a specified Location
+[Console] ====================================================
+>kickbot 20
+[Console] Only 19 bots could be kicked
+>listplayer
+[Console] Invalid Command!
+>playerlist
+[Console] Showing 2 players: 
+ ID         | IP              | NICK            | CELLS | SCORE  | POSITION    
+-------------------------------------------------------------------------------
+          8 | 127.0.0.1       | asdf            |     1 |   4113 |  2440,   591
+         28 | 127.0.0.1       | Deal_iT         |     1 |     19 |  3370,  4719
+>kick 8
+[Console] Kicked asdf
+>addbot 19
+[Console] Added 19 player bots
+>pause
+[Console] Paused the game.
+>playerlist
+[Console] Showing 20 players: 
+ ID         | IP              | NICK            | CELLS | SCORE  | POSITION    
+-------------------------------------------------------------------------------
+         28 | 127.0.0.1       | Deal_iT         |     1 |   5296 |  1001,   756
+         29 | BOT             | bangladesh      |     1 |     10 |  1852,   138
+         30 | BOT             | bait            |     1 |     26 |  1302,  3652
+         31 | BOT             | berlusconi      |     1 |     16 |    40,  4631
+         32 | BOT             | iran            |     1 |     28 |  2446,  2294
+         33 | BOT             | ukraine         |     1 |     26 |  1430,  3899
+         34 | BOT             | imperial japan  |     1 |     10 |   523,  5632
+         35 | BOT             | jamaica         |     1 |     25 |  4398,  2971
+         36 | BOT             | piccolo         |     1 |     30 |  2144,  4434
+         37 | BOT             | 2ch.hk          |     1 |     36 |  4118,  3097
+         38 | BOT             | 4chan           |     1 |     42 |  2465,  4586
+         39 | BOT             | nasa            |     4 |    148 |  1721,  3097
+         40 | BOT             | wojak           |     1 |     25 |  2595,   708
+         41 | BOT             | japan           |     2 |     69 |  4779,  2368
+         42 | BOT             | latvia          |     1 |     24 |  5177,  4768
+         43 | BOT             | pakistan        |     1 |      9 |  1593,  4119
+         44 | BOT             | earth           |     1 |     41 |    58,  4987
+         45 | BOT             | german empire   |     1 |     25 |  2111,  5483
+         46 | BOT             | 9gag            |     1 |     20 |  1869,   300
+         47 | BOT             | kim jong-un     |     2 |    169 |  4365,  2435
+>pause
+[Console] Unpaused the game.
+>playetlist
+[Console] Invalid Command!
+>playerlist
+[Console] Showing 20 players: 
+ ID         | IP              | NICK            | CELLS | SCORE  | POSITION    
+-------------------------------------------------------------------------------
+         28 | 127.0.0.1       | Deal_iT         |     1 |   6555 |   405,  5595
+         29 | BOT             | bangladesh      |     1 |    136 |  1017,  4165
+         30 | BOT             | bait            |     1 |      9 |  1280,  3855
+         31 | BOT             | berlusconi      |     1 |     25 |  2371,   111
+         32 | BOT             | iran            |     1 |     21 |  1516,  4502
+         33 | BOT             | ukraine         |     1 |     13 |  1003,  1076
+         34 | BOT             | imperial japan  |     1 |     17 |  2309,   875
+         35 | BOT             | jamaica         |     1 |     34 |  2331,   242
+         36 | BOT             | piccolo         |     1 |     30 |  3083,   942
+         37 | BOT             | 2ch.hk          |     1 |     24 |  4575,  2092
+         38 | BOT             | 4chan           |     2 |     54 |  5960,  1981
+         39 | BOT             | nasa            |     1 |     21 |   981,   871
+         40 | BOT             | wojak           |     1 |    158 |  2715,  1028
+         41 | BOT             | japan           |     5 |    131 |  2006,  5930
+         42 | BOT             | latvia          |    10 |    168 |  1331,  2005
+         43 | BOT             | pakistan        |     1 |     12 |  1485,  5960
+         44 | BOT             | earth           |     1 |     38 |  4449,  4360
+         45 | BOT             | german empire   |     6 |    506 |  2421,   937
+         46 | BOT             | 9gag            |     1 |     36 |  5948,  2240
+         47 | BOT             | kim jong-un     |     1 |     27 |  4078,  2111
+>addbot 50
+[Console] Added 50 player bots
+>pause
+[Console] Paused the game.
+>playerlist
+[Console] Showing 70 players: 
+ ID         | IP              | NICK            | CELLS | SCORE  | POSITION    
+-------------------------------------------------------------------------------
+         28 | 127.0.0.1       | Deal_iT         |     1 |    764 |   138,  5861
+         29 | BOT             | bangladesh      |     1 |      9 |  5960,  4579
+         30 | BOT             | bait            |     1 |     10 |  3033,  4752
+         31 | BOT             | berlusconi      |     1 |     13 |  1489,  2271
+         32 | BOT             | iran            |     1 |      9 |  4472,  3915
+         33 | BOT             | ukraine         |     1 |     24 |  1501,   858
+         34 | BOT             | imperial japan  |     1 |     10 |  5468,  2336
+         35 | BOT             | jamaica         |     1 |     10 |  1665,   506
+         36 | BOT             | piccolo         |     1 |     13 |   815,  5437
+         37 | BOT             | 2ch.hk          |     1 |      9 |  4898,  2805
+         38 | BOT             | 4chan           |     1 |     37 |  5110,  5770
+         39 | BOT             | nasa            |     1 |   1164 |  5716,  5829
+         40 | BOT             | wojak           |     1 |     13 |  1575,   732
+         41 | BOT             | japan           |     1 |     11 |  4265,   861
+         42 | BOT             | latvia          |     1 |     13 |   243,   540
+         43 | BOT             | pakistan        |     1 |     12 |  4824,  3705
+         44 | BOT             | earth           |     1 |     22 |  1201,   255
+         45 | BOT             | german empire   |     1 |     13 |  2013,  3151
+         46 | BOT             | 9gag            |     1 |     12 |  1442,  3542
+         47 | BOT             | kim jong-un     |     1 |      9 |   748,  3615
+         48 | BOT             | tumblr          |     1 |     13 |  2297,  3703
+         49 | BOT             | 8               |     1 |      9 |  4731,  3861
+         50 | BOT             | mars            |     1 |     46 |  1004,   475
+         51 | BOT             | texas           |     1 |      9 |  2258,  3254
+         52 | BOT             | sealand         |     1 |     12 |   688,  5481
+         53 | BOT             | fidel           |     1 |     10 |  2062,  3762
+         54 | BOT             | turkey          |     1 |     12 |  4852,  4050
+         55 | BOT             | estonia         |     2 |    571 |  5441,  1264
+         56 | BOT             | germany         |     1 |      9 |  5303,  3600
+         57 | BOT             | switzerland     |    16 |    487 |  5613,  1898
+         58 | BOT             | romania         |     1 |     61 |   552,  1460
+         59 | BOT             | ireland         |     1 |     44 |   315,  1304
+         60 | BOT             | belgium         |     1 |      9 |   633,  2154
+         61 | BOT             | united kingdom  |     1 |     14 |  4894,  2072
+         62 | BOT             | french kingdom  |     1 |     14 |  5194,  2306
+         63 | BOT             | merkel          |     1 |     12 |  3091,  4681
+         64 | BOT             | indiana         |     1 |     11 |  4846,  2528
+         65 | BOT             | indonesia       |     1 |     12 |   914,  2080
+         66 | BOT             | hollande        |     1 |     22 |  4915,  1813
+         67 | BOT             | satanist        |     1 |     12 |  5329,  5535
+         68 | BOT             | feminism        |     1 |     11 |  3372,  4894
+         69 | BOT             | palin           |     1 |      9 |  1125,  5064
+         70 | BOT             | botswana        |     1 |     12 |   344,  2181
+         71 | BOT             | australia       |     8 |  16471 |  3830,  1650
+         72 | BOT             | yaranaika       |     1 |      9 |   638,  5960
+         73 | BOT             | sir             |     1 |     23 |   914,  5520
+         74 | BOT             | cuba            |     1 |      9 |   957,  1731
+         75 | BOT             | irs             |     1 |     22 |  5336,  4830
+         76 | BOT             | facebook        |     1 |      9 |  1910,  2997
+         77 | BOT             | taiwan          |     1 |     50 |   929,  5694
+         78 | BOT             | queen           |     1 |     13 |  5139,  2340
+         79 | BOT             | matriarchy      |     1 |     11 |  5624,  4720
+         80 | BOT             | obama           |     1 |     52 |  4128,  2994
+         81 | BOT             | stussy          |     1 |     12 |  3537,  4734
+         82 | BOT             | france          |     1 |    133 |   336,  1729
+         83 | BOT             | maldivas        |     1 |     11 |   608,  5637
+         84 | BOT             | european union  |     1 |     59 |   426,  2509
+         85 | BOT             | cia             |     1 |     12 |   462,  2048
+         86 | BOT             | cameron         |     1 |      9 |  3117,  5136
+         87 | BOT             | moon            |     1 |      9 |  1573,  5879
+         88 | BOT             | stalin          |     2 |     64 |  1045,  1321
+         89 | BOT             | tsipras         |     1 |      9 |  4732,  3976
+         90 | BOT             | russia          |     4 |    519 |  1098,  2677
+         91 | BOT             | byzantium       |     1 |     10 |  1546,  5904
+         92 | BOT             | reddit          |     1 |      9 |  5437,  2186
+         93 | BOT             | austria         |     1 |     10 |  4702,  1964
+         94 | BOT             | doge            |     1 |      9 |  3273,  4897
+         95 | BOT             | venezuela       |     1 |     22 |  4583,  2778
+         96 | BOT             | peru            |     1 |     10 |  2307,  3694
+         97 | BOT             | usa             |     1 |     14 |  4791,  2556
+>rank
+[Console] Invalid Command!
+>ranking
+[Console] Invalid Command!
+>help
+[Console] ======================== HELP ======================
+[Console] addbot [number]              : add bot to the server
+[Console] kickbot [number]             : kick an amount of bots
+[Console] board [string] [string] ...  : set scoreboard text
+[Console] boardreset                   : reset scoreboard text
+[Console] change [setting] [value]     : change specified settings
+[Console] clear                        : clear console output
+[Console] color [PlayerID] [R] [G] [B] : set cell(s) color by client ID
+[Console] exit                         : stop the server
+[Console] food [X] [Y] [mass]          : spawn food at specified Location
+[Console] gamemode [id]                : change server gamemode
+[Console] kick [PlayerID]              : kick player or bot by client ID
+[Console] kill [PlayerID]              : kill cell(s) by client ID
+[Console] killall                      : kill everyone
+[Console] mass [PlayerID] [mass]       : set cell(s) mass by client ID
+[Console] merge [PlayerID]             : merge all client's cells once
+[Console] name [PlayerID] [name]       : change cell(s) name by client ID
+[Console] playerlist                   : get list of players and bots
+[Console] pause                        : pause game , freeze all cells
+[Console] reload                       : reload config
+[Console] resetantiteam                : reset anti-team effect on client
+[Console] status                       : get server status
+[Console] tp [PlayerID] [X] [Y]        : teleport player to specified location
+[Console] virus [X] [Y] [mass]         : spawn virus at a specified Location
+[Console] ====================================================
+>status
+[Console] Connected players: 70/64
+[Console] Players: 1 - Bots: 69
+[Console] Server has been running for 4374.044 seconds
+[Console] Current memory usage: 22706.8/51758.416 kb
+[Console] Current game mode: Free For All
+>kickbots 
+[Console] Invalid Command!
+>botkick
+[Console] Invalid Command!
+>botsckick
+[Console] Invalid Command!
+>kickbot
+[Console] Kicked all bots (69)
+>dir
+[Console] Invalid Command!
+>ls
+[Console] Invalid Command!
+>quit
+[Console] Invalid Command!
+>exit
